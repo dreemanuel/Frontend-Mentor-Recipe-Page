@@ -74,7 +74,7 @@ strong {
 .bold {
     font-weight: 700;
 }
-body {
+.page-container {
     width: 100%;   
     display: flex;
     flex-direction: column;
