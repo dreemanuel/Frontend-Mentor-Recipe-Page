@@ -8,6 +8,8 @@
     border-style: dotted;
     border-color: bisque;
     border-width: 0.1px;
+    margin: 0;
+    padding: 0;
 }
 :root {
     --white: hsl(0, 0%, 100%);
