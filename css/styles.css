@@ -1,0 +1,113 @@
+/* Recipe Page - FEM #4 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    box-sizing: border-box;
+    border-style: dotted;
+    border-color: bisque;
+    border-width: 0.1px;
+}
+:root {
+    --white: hsl(0, 0%, 100%);
+    --stone100: hsl(30, 54%, 90%);
+    --stone150: hsl(30, 18%, 87%);
+    --stone600: hsl(30, 10%, 34%);
+    --stone900: hsl(24, 5%, 18%);
+    --brown800: hsl(14, 45%, 36%);
+    --rose800: hsl(332, 51%, 32%);
+    --rose50: hsl(330, 100%, 98%);
+}    
+h1, 
+h2,
+h3,
+p,
+ul,
+ol {
+    margin: 0;
+}
+p {
+    font-family: outfit;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    margin-top: 1.5rem;
+    color: var(--stone600)
+}
+h1,
+h2 {
+    font-family: 'Young Serif';
+    margin-top: 2rem;
+    font-weight: 400;
+}
+h1 {
+    font-size: 2.5rem;
+    color: var(--stone900)
+}
+h2 {
+    color: var(--brown800)
+}
+h3 {
+    font-family: outfit;
+    color: var(--rose800)
+}
+li p {
+    margin-top: 1rem;
+}
+strong {
+    font-weight: 700;
+}
+.thin {
+    font-weight: 400;
+}
+.medium {
+    font-weight: 600;
+}
+.bold {
+    font-weight: 700;
+}
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--stone100);
+    padding: 9rem;
+}
+.card {
+    max-width: 40vw;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    border-radius: 24px;
+}
+header {
+    width: 100%;
+    gap: 4rem;
+}
+.cover-image {
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    background-image: url('../images/image-omelette.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-clip: content-box;
+    border-radius: 16px;
+}
+.box {
+    background-color: var(--rose50);
+    padding: 2rem;
+    border-radius: .75rem;
+    margin-top: 2rem;
+}
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
