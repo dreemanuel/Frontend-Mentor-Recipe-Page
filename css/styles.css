@@ -48,6 +48,7 @@ h1 {
     color: var(--stone900)
 }
 h2 {
+    font-size: 1.75rem;
     color: var(--brown800)
 }
 h3 {
