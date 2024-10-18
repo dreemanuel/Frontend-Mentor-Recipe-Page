@@ -55,12 +55,18 @@ h3 {
     font-family: outfit;
     color: var(--rose800)
 }
+ul,
+ol {
+    padding-left: 1.5rem;
+}
 li {
+    font-family: outfit;
     font-weight: 600;
-    color: var(--brown800)
+    color: var(--brown800);
+    padding-left: 0.5rem;
 }
 li p {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 strong {
     font-weight: 700;
@@ -84,7 +90,8 @@ strong {
     padding: 9rem;
 }
 .card {
-    width: 40vw;
+    min-width: 13rem;
+    max-width: 40vw;
     background-color: var(--white);
     display: flex;
     flex-direction: column;
