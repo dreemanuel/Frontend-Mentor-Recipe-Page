@@ -126,7 +126,7 @@ header {
     margin-top: 2rem;
 }
 section {
-    padding-bottom: 1.5rem;
+    padding-bottom: 1.75rem;
     border-bottom: 0.5px solid var(--stone150);
 }
 section:last-of-type {
@@ -140,11 +140,12 @@ section:last-of-type {
     width: 100%;https://www.w3schools.com/html/html_tables.asp
 }
 .nutrition-row {
-    padding: 0.5rem 2rem;
+    padding: 0.75rem 2rem;
     border-bottom: 1px solid var(--stone150);
 }
 .nutrition-row:last-of-type {
     border-bottom: none;
+    padding-bottom: 0;
 }
 .nutrition-item{
     width: 50%;
