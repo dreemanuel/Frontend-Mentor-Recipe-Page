@@ -5,9 +5,6 @@
 
 * {
     box-sizing: border-box;
-    border-style: dotted;
-    border-color: bisque;
-    border-width: 0.1px;
     margin: 0;
     padding: 0;
 }
@@ -26,22 +23,24 @@ h2,
 h3,
 p,
 ul,
-ol {
+ol
+    {
     margin: 0;
     opacity: 0.9;
+    text-align: left;
 }
 p {
     font-family: outfit;
     font-size: 16px;
     line-height: 150%;
     font-weight: 400;
-    margin-top: 1.5rem;
     color: var(--stone600)
 }
 h1,
 h2 {
     font-family: 'Young Serif';
-    margin-top: 2rem;
+    margin-top: 1.75rem;
+    margin-bottom: 1rem;
     font-weight: 400;
 }
 h1 {
@@ -63,7 +62,7 @@ li {
     font-family: outfit;
     font-weight: 600;
     color: var(--brown800);
-    padding-left: 0.5rem;
+    padding: 0 0.5rem;
 }
 li p {
     margin-top: 0.5rem;
@@ -80,6 +79,12 @@ strong {
 .bold {
     font-weight: 700;
 }
+.brown {
+    color: var(--brown800);
+}
+.inline-block {
+    display: inline-block;
+}
 .page-container {
     width: 100%;   
     display: flex;
@@ -90,8 +95,7 @@ strong {
     padding: 9rem;
 }
 .card {
-    min-width: 13rem;
-    max-width: 40vw;
+    width: 47rem;
     background-color: var(--white);
     display: flex;
     flex-direction: column;
@@ -117,9 +121,34 @@ header {
 }
 .box {
     background-color: var(--rose50);
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: .75rem;
     margin-top: 2rem;
+}
+section {
+    padding-bottom: 1.5rem;
+    border-bottom: 0.5px solid var(--stone150);
+}
+section:last-of-type {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+.nutrition-table {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    width: 100%;https://www.w3schools.com/html/html_tables.asp
+}
+.nutrition-row {
+    padding: 0.5rem 2rem;
+    border-bottom: 1px solid var(--stone150);
+}
+.nutrition-row:last-of-type {
+    border-bottom: none;
+}
+.nutrition-item{
+    width: 50%;
+    display: inline-block;
 }
 .attribution {
     font-size: 11px; 
